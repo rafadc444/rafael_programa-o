@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof Ajax</title>
+</head>
+
+<body>
+    <banner>
+        <img src="img/professor.jpg" width="1000">
+        <h1>Professor Ajax</h1>
+    </banner>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        ||
+        <a href="musicas.html">Músicas para programação</a>
+        ||
+        <a href="aulas.html">Aulas grátis</a>
+        ||
+        <a href="planos.html">Planos</a>
+        ||
+        <a href="contato.html">Contato</a>    </nav>
+
+    <h1>Contato</h1>
+
+    <form action="post" action="contato.php">
+        Nome:
+        <input type="text" name="nome" size="60"> <br> 
+        E-mail:
+        <input type="email" name="email" size="60"> <br>
+        Mensagem: <br>
+        <textarea id="sugest" name="sugest" rows="12" cols="65"></textarea>
+        <br><br>
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
+</body>
